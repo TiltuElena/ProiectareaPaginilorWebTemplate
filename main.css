@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Nunito, sans-serif;
+    color: rgba(34, 34, 34, 0.75);
+}
+
+body {
+    display: grid;
+    grid-template-columns: 6% 92% 2%;
+    background: rgba(255, 255, 255, 1);
+    height: auto;
+}
+
+.firstSection {
+    display: grid;
+    grid-column: 1/-1;
+    grid-template-columns:6% 92% 2%;
+}
+
+.firstSectionContainer {
+    grid-column: 2/3;
+    display: grid;
+    gap: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(218, 165, 32, 1);
+}
+
+.logo {
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.logoMain a {
+    width: fit-content;
+    display: flex;
+    justify-items: center;
+    gap: 5px;
+}
+
+nav {
+    margin-top: 15px;
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    max-height: 50px;
+    grid-template-columns: 25% 60% 15%;
+}
+
+main {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 40% 60%;
+    height: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+
+.navLinks {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signUpButton {
+    justify-self: right;
+    background: none;
+    padding: 7px;
+    width: 110px;
+    height: 33px;
+    border-radius: 5px;
+    border: solid 1px rgba(62, 63, 67, 1);
+    color: rgba(62, 63, 67, 1);
+    cursor: pointer;
+}
+
+.signUpButton:hover {
+    border: 1px solid white;
+    color: white;
+}
+
+.explore {
+    background: rgba(218, 165, 32, 1);
+    color: white;
+    border-radius: 3px;
+    padding: 8px;
+    border: 1px solid rgba(218, 165, 32, 1);
+    width: 150px;
+    cursor: pointer;
+}
+
+.explore:hover {
+    background: rgba(210, 150, 30, 1);
+}
+
+.mainText {
+    padding-top: 60px;
+    grid-column: 1/2;
+}
+
+.mainImage {
+    min-width: 50px;
+    min-height: 50px;
+    height: auto;
+    max-width: 70%;
+    justify-self: end;
+    align-self: start;
+    margin-right: 80px;
+}
+
+.imgContainer {
+    grid-column: 2/3;
+    display: grid;
+}
+
+.boldText {
+    font-weight: bold;
+    color: rgba(49, 50, 53, 1);
+}
+
+.mainText .firstTextBlock {
+    font-size: 2.5vw;
+    margin-bottom: 17px;
+    color: rgba(49, 50, 53, 1);
+    width: auto;
+}
+
+.mainText .secondTextBlock {
+    font-size: 5vw;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgba(49, 50, 53, 1);
+    width: auto;
+}
+
+.backgroundElem1 {
+    width: 31.5%;
+    height: 98%;
+    min-height: 95%;
+    background: rgba(249, 189, 189, 1);
+    border-radius: 0 0 0 150px;
+    z-index: -100;
+    position: absolute;
+    justify-self: end;
+}
+
+.backgroundElem2 {
+    z-index: -100;
+    position: absolute;
+    justify-self: end;
+    align-self: end;
+    right: 22%;
+    top: 45%;
+    width: 26%;
+    height: auto;
+}
