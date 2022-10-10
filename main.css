@@ -17,6 +17,7 @@ body {
     display: grid;
     grid-column: 1/-1;
     grid-template-columns:6% 92% 2%;
+    margin-bottom: 150px;
 }
 
 .firstSectionContainer {
@@ -161,4 +162,145 @@ main {
     top: 45%;
     width: 26%;
     height: auto;
+}
+
+.secondSection {
+    grid-column: 2/-1;
+    display: grid;
+}
+
+.backgroundElem-section2 {
+    left: -60px;
+    width: 382px;
+    height: 382px;
+    z-index: -100;
+    position: absolute;
+    justify-self: start;
+    top: 180%;
+}
+
+.gray-logo {
+    width: 30px;
+    height: 30px;
+}
+
+.sectionIntroduction {
+    font-size: 36px;
+}
+
+.sectionHeader {
+    color: rgba(34, 34, 34, 0.1);
+    font-size: 72px;
+}
+
+hr {
+    border: 0.5px solid rgba(0, 0, 0, 1);
+    color: black;
+}
+
+.limit {
+    width: 45%;
+}
+
+.sectionHead {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.orange-background-decoration {
+    background: rgba(247, 222, 166, 1);
+    border-radius: 0 100px 0 100px;
+    width: 280px;
+    height: 400px;
+    z-index: -100;
+    position: absolute;
+    grid-column: 2/3;
+    top: 135%;
+}
+
+.aboutUsTextHeader {
+    font-size: 36px;
+}
+
+.aboutUsText {
+    font-size: 24px;
+}
+
+.secondSectionContainer {
+    display: grid;
+    gap: 15px;
+}
+
+.aboutUsSection1 {
+    display: flex;
+    margin-top: 80px;
+    gap: 23%;
+}
+
+.aboutUsSection2 {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 35%;
+}
+
+.textContainer-modified {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+    align-self: center;
+}
+
+.aboutUsImg {
+    justify-self: end;
+    align-self: end;
+}
+
+.thirdSection {
+    margin-top: 10%;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin-bottom: 10%;
+}
+.edit{
+    width: 180px;
+    align-self: center;
+}
+.limit2 {
+    width: 27%;
+}
+.customDivs{
+    display: flex;
+    padding: 0 110px 0 110px ;
+    justify-content: space-between;
+    margin: 0;
+}
+.customDiv{
+    width: 200px;
+}
+.order{
+    color: rgba(249, 189, 189, 0.25);
+    font-size: 96px;
+    padding: 0;
+    margin: 0;
+}
+.orderedCustomDiv{
+    display: flex;
+    gap: 0;
+}
+.customDescription{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
 }
